@@ -1,3 +1,9 @@
+import ContactsList from './ContactsList/ContactsList';
+
 export const App = () => {
-  return <div>React homework template</div>;
+  return (
+    <div>
+      <ContactsList />
+    </div>
+  );
 };
