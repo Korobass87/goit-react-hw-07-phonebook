@@ -1,10 +1,17 @@
 import React from 'react';
-
-function Contact({ name, number }) {
+import './Contact.scss';
+function Contact({ name, number, id, deletePost }) {
   return (
-    <div>
+    <div className="card">
       <h2>{name}</h2>
-      <p>{number}</p>
+      <p>tel: {number}</p>
+      <button
+        onClick={() => {
+          deletePost(id);
+        }}
+      >
+        delete
+      </button>
     </div>
   );
 }

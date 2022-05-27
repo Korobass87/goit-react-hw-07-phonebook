@@ -1,0 +1,22 @@
+.contact-section {
+    width: 100vw;
+    background: rgb(32, 151, 175);
+        background: linear-gradient(90deg, rgba(32, 151, 175, 1) 0%, rgba(121, 60, 9, 0.8407738095238095) 61%, rgba(94, 86, 232, 1) 100%);
+max-width: 100%;
+display: flex;
+flex-grow: 2;
+}
+.contact-wrap{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    min-height: 75vh;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
