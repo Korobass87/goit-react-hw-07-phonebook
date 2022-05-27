@@ -1,8 +1,8 @@
 .form-wrap {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+    
     display: flex;
     width: 100vw;
     height: 25vh;
@@ -16,14 +16,16 @@ margin-right: auto;
 margin-left: auto;
 width: 350px;
 
+
 }
 form label {display: flex;
+    margin: 0;
 margin-bottom: 10px;
 justify-content: space-between;}
 
 form label p {
     margin: 0;
-    margin-right: 10px;
+    
     color: antiquewhite;
     font-size: 20px;
     font-weight: 600;

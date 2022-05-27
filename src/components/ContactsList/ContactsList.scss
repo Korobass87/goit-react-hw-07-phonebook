@@ -4,7 +4,9 @@
         background: linear-gradient(90deg, rgba(32, 151, 175, 1) 0%, rgba(121, 60, 9, 0.8407738095238095) 61%, rgba(94, 86, 232, 1) 100%);
 max-width: 100%;
 display: flex;
+flex-direction: column;
 flex-grow: 2;
+
 }
 .contact-wrap{
     padding-top: 15px;
@@ -19,4 +21,28 @@ flex-grow: 2;
     margin-right: auto;
     margin-left: auto;
 
+}
+label {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.filter-input {
+    height: 20px;
+        width: 220px;
+        border-radius: 6px;
+        outline: 0;
+        outline-offset: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: 600;
+        margin-left: 10px;
+}
+label p {
+    
+        
+        color: antiquewhite;
+        font-size: 20px;
+        font-weight: 600;
 }

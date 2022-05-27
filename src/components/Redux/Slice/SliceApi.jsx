@@ -8,8 +8,13 @@ export const contactsApi = createApi({
   endpoints: builder => ({
     getContacts: builder.query({
       query: () => `phonebook`,
-      providesTags: ['contacts'],
+      providesTags: result =>
+        result
+          ? result.map(({ id }) => ({ type: 'contacts', id }))
+          : ['contacts'],
     }),
+    //   providesTags: ['contacts'],
+    // }),
     deleteContact: builder.mutation({
       query(id) {
         return {
