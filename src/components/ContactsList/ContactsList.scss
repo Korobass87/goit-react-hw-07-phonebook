@@ -11,11 +11,12 @@ flex-grow: 2;
 .contact-wrap{
     padding-top: 15px;
     padding-bottom: 15px;
-    
+
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    
+  justify-content: center;
+
     min-height: 75vh;
     width: 900px;
     margin-right: auto;
@@ -40,8 +41,8 @@ label {
         margin-left: 10px;
 }
 label p {
-    
-        
+
+
         color: antiquewhite;
         font-size: 20px;
         font-weight: 600;
